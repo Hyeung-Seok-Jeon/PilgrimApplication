@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="아이디 찾기"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_id_SearchPhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="핸드폰번호 입력" />
+
+        <Button
+            android:id="@+id/btn_idcode"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:text="인증번호 받기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_codeEnter"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="인증번호 입력" />
+
+        <Button
+            android:id="@+id/btn_check1"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:text="확인" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_code1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="비밀번호 찾기"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_id_searchpwd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="아이디 입력" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_phone_searchpwd"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="핸드폰번호 입력" />
+
+        <Button
+            android:id="@+id/btn_pwdcode"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:text="인증번호 받기" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_codeEnter2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="인증번호 입력" />
+
+        <Button
+            android:id="@+id/btn_check2"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:text="확인" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_code2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

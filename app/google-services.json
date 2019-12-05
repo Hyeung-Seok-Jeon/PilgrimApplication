@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "988271488742",
+    "firebase_url": "https://pilgrimapplication.firebaseio.com",
+    "project_id": "pilgrimapplication",
+    "storage_bucket": "pilgrimapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988271488742:android:be2ae7df9776398cce5527",
+        "android_client_info": {
+          "package_name": "com.example.pilgrimapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988271488742-2754uuqpeph0ir4b1aha4d1gc03j5pra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pilgrimapplication",
+            "certificate_hash": "b584dff16350bda7ba2c483ffc331c7cf51d6b88"
+          }
+        },
+        {
+          "client_id": "988271488742-3nlgigf3car7nrvs4j4ds0g27r8d9gh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pilgrimapplication",
+            "certificate_hash": "e02efbe7825f9b892de413ecf3bb0e3062903712"
+          }
+        },
+        {
+          "client_id": "988271488742-h4vtp4saqhf5rndd2rr2eqci634r2pc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLIcoLVmnZPYOgvUV-1Wv3w1K97NdjCSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988271488742-h4vtp4saqhf5rndd2rr2eqci634r2pc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
